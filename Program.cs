@@ -24,18 +24,23 @@ Console.WriteLine(i + ". " + userInput3);
 for (int i = 1; i <= 5; i++)
 {
     string userInput5 = Console.ReadLine();
-    for (int o = 1; o <= i; ++o)
+    for (int o = 1; o <= i; o++)
     {
         Console.WriteLine(o + ". " + userInput5);
     }
 }
 Console.WriteLine("konec akce");
 //3. úkol
-for (int i = 1; ;++i)
+bool preceed = true;
+while (preceed)
 {
-    string userInput4 = Console.ReadLine();
-    for (int o = 1; o <= i; ++o)
+    for (int i = 1; i <= i; i++)
     {
-        Console.WriteLine(o + ". " + userInput4);
+        string userInput6 = Console.ReadLine();
+        for (int o = 1; o <= i; o++)
+        {
+            Console.WriteLine(o + ". " + userInput6);
+        }
     }
+    
 }
