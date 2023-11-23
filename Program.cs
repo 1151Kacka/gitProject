@@ -1,4 +1,5 @@
-﻿bool proceed = true;
+﻿//1. ůkol
+bool proceed = true;
 string result = "";
 while (proceed)
 {
@@ -14,10 +15,12 @@ while (proceed)
 }
 Console.WriteLine(result);
 
+//2. úkol
 string userInput3 = Console.ReadLine();
 for (int i = 0; i <= 5; i++)
 Console.WriteLine(i + ". " + userInput3);
 
+//2.+3. úkol
 for (int i = 1; i <= 5; i++)
 {
     string userInput5 = Console.ReadLine();
@@ -27,23 +30,12 @@ for (int i = 1; i <= 5; i++)
     }
 }
 Console.WriteLine("konec akce");
-
+//3. úkol
 for (int i = 1; ;++i)
 {
     string userInput4 = Console.ReadLine();
     for (int o = 1; o <= i; ++o)
     {
         Console.WriteLine(o + ". " + userInput4);
-    }
-}
-
-//Načtěte od uživatele slovo a to zopakujte 5. (už jsme dělali)
-//Načtěte od uživatele slovo a první zopakujte jednou, další slovo zopakujte dvakrát, další třikrát atd.
-for (int i = 1; i <= 5; i++)
-{
-    string userInput5 = Console.ReadLine();
-    for (int o = 1; o <= i; ++o)
-    {
-        Console.WriteLine(o + ". " + userInput5);
     }
 }
